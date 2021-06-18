@@ -176,14 +176,14 @@ h3 {
     display: block;
     width: 1161px;
     height: 1830px;
-    background-image: url("../img/header-img.png");
+    background-image: url("../img/header-img.jpg");
     background-repeat: no-repeat;
     background-position: 0 -360px;
     background-size: initial;
     top: 0;
     right: 0;
     position: absolute;
-    z-index: -1; }
+    z-index: -2; }
   .header::before {
     content: '';
     display: block;
