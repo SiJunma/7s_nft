@@ -191,17 +191,23 @@
                         <h2>Contact us</h2>
 
                         <form class="contactUs__form">
+
+                            <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="7s_nft">
+                            <input type="hidden" name="admin_email" value="B.gabe@7s_nft.com">
+                            <input type="hidden" name="form_subject" value="Form Subject">
+                            <!-- END Hidden Required Fields -->
+
                             <fieldset class="fieldset fieldset_name  error">
                                 <div class="input">
-                                    <input type="text" placeholder="Name" id="inputName">
+                                    <input name="Name" type="text" placeholder="Name" id="inputName">
                                     <label for="inputName">Name</label>
                                 </div>
-                                
                             </fieldset>
 
                             <fieldset class="fieldset fieldset_email disabled">
                                 <div class="input">
-                                    <input type="text" placeholder="Email" id="inputName" disabled>
+                                    <input name="E-mail" type="text" placeholder="Email" id="inputEmail">
                                     <label for="inputEmail">Email</label>
                                 </div>
                                 
@@ -209,7 +215,7 @@
 
                             <fieldset class="fieldset fieldset_comments">
                                 <div class="input">
-                                    <textarea type="text" placeholder="Additional comments" id="inputComments"></textarea>
+                                    <textarea name="Comments" type="text" placeholder="Additional comments" id="inputComments"></textarea>
                                     <label for="inputComments">Comments</label>
                                 </div>
                                 
@@ -254,5 +260,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/script.js"></script>
+
 </body>
 </html> 
